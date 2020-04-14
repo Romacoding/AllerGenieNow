@@ -1,0 +1,32 @@
+{
+  "name": "allergenie",
+  "description": "Your local pollen count and allergy forecast",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "deploy": "now -e MONGO_USER=@user -e MONGO_PASS=@pass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Romacoding/allergenie.git"
+  },
+  "keywords": [
+    "ostash",
+    "allergy",
+    "forecast",
+    "pollen"
+  ],
+  "author": "Roman Ostash roman@ostash.dev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.5",
+    "mongodb-client-encryption": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
