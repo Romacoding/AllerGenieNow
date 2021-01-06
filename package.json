@@ -21,7 +21,7 @@
   "author": "Roman Ostash roman@ostash.dev",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "mongodb": "^3.5.5",
     "mongodb-client-encryption": "^1.0.1"
